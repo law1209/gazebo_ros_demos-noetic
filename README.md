@@ -19,7 +19,7 @@ Gazebo:
 
     roslaunch rrbot_gazebo rrbot_world.launch
 
-ROS Control(not necessary, be included in rrbot_world.launch):
+ROS Control(not necessary, included in rrbot_world.launch):
 
     roslaunch rrbot_control rrbot_control.launch
 
