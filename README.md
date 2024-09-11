@@ -27,6 +27,14 @@ Example of Moving Joints:
 
     rostopic pub /rrbot/joint2_position_controller/command std_msgs/Float64 "data: -0.9"
 
+## Install
+
+Please install the necessary packages:
+
+sudo apt-get install ros-noetic-ros-control
+sudo apt-get install ros-noetic-effort-controllers
+
+
 ## Develop and Contribute
 
 We welcome any contributions to this repo and encourage you to fork the project then send pull requests back to this parent repo. Thanks for your help!
