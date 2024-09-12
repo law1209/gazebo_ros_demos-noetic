@@ -7,7 +7,7 @@ Example robots and code for interfacing Gazebo with ROS
 
 ## Tutorials
 
-[ROS URDF](http://gazebosim.org/tutorials/?tut=ros_urdf)
+[ROS URDF](http://gazebosim.org/tutorials/?tut=ros_urdf)  NOT FOUND!(ROC 20240912)
 
 ## Quick Start
 
@@ -25,9 +25,9 @@ ROS Control(not necessary, included in rrbot_world.launch):
 
 Example of Moving Joints:
 
-    rostopic pub /rrbot/joint2_position_controller/command std_msgs/Float64 "data: -0.9"
     rostopic pub /rrbot/joint1_position_controller/command std_msgs/Float64 "data:  1.0"
-
+    rostopic pub /rrbot/joint2_position_controller/command std_msgs/Float64 "data: -0.9"
+    
 
 ## Install
 

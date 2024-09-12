@@ -1,4 +1,5 @@
 <launch>
+  <!-- Write robot_description parameter into server -->
   <param name="robot_description"
     command="$(find xacro)/xacro --inorder '$(find rrbot_description)/urdf/rrbot.xacro'" />
 
