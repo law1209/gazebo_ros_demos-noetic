@@ -35,7 +35,7 @@ Please install the necessary packages:
 
     sudo apt-get install ros-noetic-ros-control
     
-    sudo apt-get install ros-noetic-effort-controllers
+    sudo apt-get install ros-noetic-ros-controllers
 
 
 ## Develop and Contribute
