@@ -1,7 +1,6 @@
 <launch>
 
-
- <!-- Load a empty gazebo env using default parameters -->
+ <!-- Load an empty gazebo env using default parameters -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find rrbot_gazebo)/worlds/rrbot.world"/>
     <arg name="paused" default="false"/>
