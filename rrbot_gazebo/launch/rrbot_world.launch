@@ -17,6 +17,10 @@
     <arg name="headless" value="$(arg headless)"/>
   </include>
 
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rrbot_description)/launch/rrbot.rviz"/>
+
+
   <!-- Load the URDF into the ROS Parameter Server -->
   <param name="robot_description"
     command="$(find xacro)/xacro --inorder '$(find rrbot_description)/urdf/rrbot.xacro'" />
