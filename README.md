@@ -31,6 +31,10 @@ ROS Control(not necessary, have been included in rrbot_world.launch):
 
 
 Example of Moving Joints:
+
+    rostopic pub /rrbot/joint1_position_controller/command std_msgs/Float64 "data:  1.0"
+    rostopic pub /rrbot/joint2_position_controller/command std_msgs/Float64 "data: -0.9"
+    
 # Please note that the imputs here are the control target, not the actual joint position
 # If you want to know the actual joint position, please use:
 
@@ -76,8 +80,7 @@ effort: [16.576169845460242, 4.096538407510408] -->
 
 
 
-    rostopic pub /rrbot/joint1_position_controller/command std_msgs/Float64 "data:  1.0"
-    rostopic pub /rrbot/joint2_position_controller/command std_msgs/Float64 "data: -0.9"
+
     
 
 ## Install
