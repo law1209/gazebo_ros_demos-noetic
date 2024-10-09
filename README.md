@@ -19,15 +19,8 @@ Rviz:
 Gazebo:
 
     roslaunch rrbot_gazebo rrbot_world.launch
-or,
+or, if you want see whole structure of the launch file, please use:
     roslaunch rrbot_gazebo rrbot_world_linebyline.launch
-# if you want see the structure of the launch file, please use:
-
-ROS Control(not necessary, have been included in rrbot_world.launch):
-
-    roslaunch rrbot_control rrbot_control.launch
-
-
 
 
 Example of Moving Joints:
